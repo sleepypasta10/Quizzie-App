@@ -61,11 +61,11 @@ function ReviewGame({ data }) {
                         data-index={index}
                         key={index}
                         className={`rounded-md flex items-center shadow-md my-3 py-4 px-4 cursor-pointer duration-50 bg-white mx-auto border-2 text-xl
-            ${item.isSelected && item.correct ? "bg-green-600 text-white border-2" : ""} 
+            ${item.isSelected && item.correct ? "correct-color border-2" : ""} 
             ${item.isSelected && item.correct === false 
-                ? "bg-red-700 text-white border-2" 
+                ? "wrong-color border-2" 
                 : ""}
-            ${item.correct ? "bg-green-600 text-white border-2" : ""}`}>
+            ${item.correct ? "correct-color border-2" : ""}`}>
                         {item.answer_content}
                     </li>
                 ))}

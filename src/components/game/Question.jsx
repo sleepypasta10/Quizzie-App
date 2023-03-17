@@ -120,7 +120,8 @@ function Question() {
                         onClick={(e) => SelectedHandler(index, e)}
                         key={index}
                         data-index={index}
-                        className={`rounded-md flex items-center shadow-md my-3 py-4 px-4 cursor-pointer duration-50 bg-white mx-auto border-2 hover:bg-blue-900 hover:text-white text-xl ${item.isSelected ? "bg-indigo-900 text-white" : ""}`}>
+                        className={`rounded-md flex items-center shadow-md my-3 py-4 px-4 cursor-pointer duration-50 bg-white mx-auto border-2 hover:bg-[#1c1977] hover:text-white text-xl 
+                        ${item.isSelected ? "primary-color" : ""}`}>
                         {item.answer_content}
                     </li>
                 ))}

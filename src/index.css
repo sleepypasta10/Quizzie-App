@@ -13,3 +13,16 @@
     background-color: #a5b4fc;
   }
 }
+
+.correct-color{
+  background-color: #10b981 !important;
+  color: #ffff;
+}
+.wrong-color {
+  background-color: #EF4444 !important;
+  color: #ffff;
+}
+.primary-color{
+  background-color: #1c1977 !important;
+  color: #fff;
+}
